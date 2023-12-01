@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/browser"
+        android:title=""
+        android:icon="@drawable/ic_baseline_send_24"
+        app:showAsAction="always|collapseActionView"/>
+
+</menu>

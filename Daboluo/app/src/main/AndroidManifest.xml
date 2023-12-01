@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="Min.app.plus">
+
+    <!-- 允许联网 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 开机自启 -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 通知栏 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 获取GSM（2g）、WCDMA（联通3g）等网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 获取sd卡写的权限，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许读取手机状态 用于创建BmobInstallation -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 安装APK权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REPLACE_EXISTING_PACKAGE" />
+
+    <application
+        android:name=".application.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/diablos"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/diablos_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.lvzhu">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/filepath" />
+
+        <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 声明前台服务 -->
+
+        <!---->
+        <activity android:name=".MainActivity"/>
+        <!---->
+        <activity android:name=".AddActivity" />
+        <!---->
+        <activity android:name=".AddTrade" />
+        <!---->
+        <activity android:name=".LoginActivity" />
+        <!---->
+        <activity android:name=".MpostActivity" />
+        <!---->
+        <activity android:name=".PostActivity" />
+        <!---->
+        <activity android:name=".MpostList" />
+        <!---->
+        <activity android:name=".UpdateActivity" />
+        <!---->
+        <activity android:name=".MreplyList" />
+        <!---->
+        <activity android:name=".UserActivity" />
+        <!---->
+        <activity android:name=".Userupdate" />
+        <!---->
+        <activity android:name=".MuserActivity" />
+        <!---->
+        <activity android:name=".WebActivity" />
+        <!---->
+        <activity android:name=".Feedback" />
+        <!---->
+        <activity android:name=".PostList" />
+        <!---->
+        <activity android:name=".GoodsActivity" />
+        <!---->
+        <activity android:name=".Account" />
+        <!---->
+        <activity android:name=".MorderActivity" />
+        <!---->
+        <activity android:name=".Mgoods" />
+        <!---->
+        <activity android:name=".FollowActivity" />
+        <!---->
+        <activity android:name=".FensActivity" />
+        <!---->
+        <activity android:name=".ReplyList" />
+        <!---->
+        <activity android:name=".AuditActivity" />
+        <!---->
+        <activity android:name=".AddOrder" />
+        <!---->
+        <activity android:name=".TopupActivity"/>
+        <!---->
+        <activity android:name=".MtorderActivity"/>
+        <!---->
+        <activity android:name=".BuyCarmi"/>
+        <!---->
+        <activity android:name=".ApplyList"/>
+        <!---->
+        <activity android:name=".ApplyActivity"/>
+        <!---->
+        <activity android:name=".ReplyActivity"/>
+        <!---->
+        <activity android:name=".ChatActivity"/>
+        <!---->
+        <activity android:name=".SearchActivity"/>
+        <!---->
+        <activity android:name=".ChatgptActivity"/>
+        <!---->
+        <activity android:name=".YxapiActivity"/>
+        <!---->
+        <activity android:name=".StoreManager"/>
+        <!---->
+        <activity android:name=".AddGoods"/>
+        <!---->
+        <activity android:name=".AlterGoods"/>
+        <!---->
+        <activity android:name=".CreateStore"/>
+        <!---->
+        <activity android:name=".AlterStore"/>
+        <!---->
+        <activity android:name=".StoreActivity"/>
+        <!---->
+        <activity android:name=".PayActivity"/>
+        <!---->
+        <activity android:name=".Store_Order_Management"/>
+        <!---->
+        <activity android:name=".Order_Management"/>
+        <!---->
+        <activity android:name=".OrderActivity2"/>
+        <!--申请售后页面-->
+        <activity android:name=".ApplyAfterSales"/>
+        <!--商家版订单详情页-->
+        <activity android:name=".OrderStoreActivity"/>
+        <!--点赞列表-->
+        <activity android:name=".LikeActivity"/>
+<!--支付宝-->
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="Min.app.plus.BmobContentProvider" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="Min.app.plus.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepath" />
+        </provider>
+    </application>
+
+</manifest>

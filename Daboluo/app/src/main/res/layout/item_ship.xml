@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="8dp"
+        android:background="@color/white"
+        android:id="@+id/linearlayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center">
+
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/head"
+                android:id="@+id/headportrait"/>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="大菠萝"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/username"
+                    android:textColor="@color/fen"
+                    android:textSize="18sp"
+                    android:gravity="bottom|left|center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="我一直在承受这个年纪不该有的帅气和机智，我好累"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="7"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/signature"
+                    android:paddingBottom="5dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/huise" />
+
+</LinearLayout>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="service_scope">
+        <item>全校</item>
+        <item>龙华苑1栋</item>
+        <item>龙华苑2栋</item>
+        <item>龙华苑3栋</item>
+        <item>龙华苑4栋</item>
+        <item>龙华苑5栋</item>
+        <item>清雅居1栋</item>
+        <item>清雅居2栋</item>
+        <item>清雅居3栋</item>
+        <item>清雅居4栋</item>
+    </string-array>
+
+
+</resources>

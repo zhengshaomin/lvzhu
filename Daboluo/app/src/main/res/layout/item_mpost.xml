@@ -1,0 +1,119 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/white"
+    android:id="@+id/item">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/headportrait"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|left|center"
+            android:paddingLeft="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="大菠萝"
+                    android:singleLine="true"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/username"
+                    android:layout_weight="1.0"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_marginBottom="0.2dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="这是时间"
+                    android:singleLine="true"
+                    android:id="@+id/time"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我最喜欢三月的风，四月的雨，不落的太阳和最好的你"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="15sp"
+        android:id="@+id/content"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        android:maxLines="7"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|center"
+        android:layout_marginRight="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_weight="1.0"
+            android:id="@+id/visible"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="458872"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/replys"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

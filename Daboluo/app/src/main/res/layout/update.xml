@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/huise">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        android:background="#FA7298"/>
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="top|left|center"
+        android:hint="分享新鲜事..."
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:id="@+id/choose_photo"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:clickable="true"
+        android:padding="7dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/photo"
+            android:src="@drawable/image_5" />
+
+        <TextView
+            android:id="@+id/pv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="添加图片"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <Switch
+        android:id="@+id/visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="所有人可见"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="不匿名"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:id="@+id/anonymous"/>
+
+
+
+
+
+</LinearLayout>

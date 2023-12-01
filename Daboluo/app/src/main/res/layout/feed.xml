@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/huise">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        android:background="@color/fen"/>
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:gravity="top|left|center"
+        android:hint="请留下你宝贵的意见以及联系方式（这对我来说无比重要）"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:textSize="15sp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:layout_margin="10dp"
+            android:id="@+id/send"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注：你提交的意见一经被采取或实施，我们将为你准备丰厚礼物，留下联系方式以便于我们能够更快联系你"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">#FA7298</item><!--原色-->
+        <item name="colorPrimaryVariant">#FA7298</item><!--原色变体-->
+        <item name="colorOnPrimary">@color/white</item><!--彩色原色-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FA7298</item><!--灰色-->
+        <item name="colorSecondaryVariant">#FA7298</item><!--灰色-->
+        <item name="colorOnSecondary">#FFFFFF</item><!--二级颜色-->
+
+        <item name="titleTextColor">#FFFFFF</item><!--状态栏标题字体颜色-->
+        <item name="subtitleTextColor">#FFFFFF</item><!--状态栏二级标题字体颜色-->
+        <item name="colorControlNormal">#FFFFFF</item><!--控制正常颜色-->
+        <item name="android:actionMenuTextColor">#FFFFFF</item><!--动作菜单文本颜色-->
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="tabLayout_testStyle2" parent="TextAppearance.Design.CollapsingToolbar.Expanded"/>
+    <style name="tabLayout_testStyle" parent="TextAppearance.Design.Tab">
+        <!--此处可用dp也可以用sp都可以,任选一个-->
+        <item name="android:textSize">16sp</item>
+<!--        <item name="android:textStyle">bold</item>-->
+    </style>
+
+
+    <style name="Theme.lvzhu" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#FA7298</item><!--原色-->
+        <item name="colorPrimaryVariant">#FA7298</item><!--原色变体-->
+        <item name="colorOnPrimary">@color/white</item><!--彩色原色-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FA7298</item><!--灰色-->
+        <item name="colorSecondaryVariant">#FA7298</item><!--灰色-->
+        <item name="colorOnSecondary">#FFFFFF</item><!--二级颜色-->
+
+        <item name="titleTextColor">#FFFFFF</item><!--状态栏标题字体颜色-->
+        <item name="subtitleTextColor">#FFFFFF</item><!--状态栏二级标题字体颜色-->
+        <item name="colorControlNormal">#FFFFFF</item><!--控制正常颜色-->
+        <item name="android:actionMenuTextColor">#FFFFFF</item><!--动作菜单文本颜色-->
+        <!-- Status bar color. -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

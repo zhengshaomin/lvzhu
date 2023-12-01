@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/a"
+        android:icon="@drawable/ic_baseline_eco_24"
+        android:title="迎新引导"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/b"
+        android:icon="@drawable/ic_baseline_qr_code_24"
+        android:title="缴费条码"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/c"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="虚拟校园"
+        app:showAsAction="always"/>
+
+</menu>

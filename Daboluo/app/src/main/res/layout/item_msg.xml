@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|top"
+        android:id="@+id/left_layout"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/left_headportrait"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="这是内容"
+                    android:maxWidth="300dp"
+                    android:padding="10dp"
+                    android:textIsSelectable="true"
+                    android:background="@drawable/new_he_background"
+                    android:textColor="@color/white"
+                    android:id="@+id/left_msg"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:id="@+id/left_photo"
+                    android:visibility="gone"
+                    android:maxWidth="180dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:gravity="left"
+                android:text="sjksk"
+                android:id="@+id/left_time"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right|top"
+        android:id="@+id/right_layout"
+        android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="这是内容"
+            android:maxWidth="300dp"
+            android:padding="10dp"
+            android:textIsSelectable="true"
+            android:background="@drawable/new_me_background"
+            android:textColor="@color/white"
+            android:id="@+id/right_msg"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:id="@+id/right_photo"
+                android:visibility="gone"
+                android:maxWidth="180dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="right"
+            android:text="sjhskl"
+            android:id="@+id/right_time"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/right_headportrait"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

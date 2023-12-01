@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        android:background="#FA7298"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="标题"
+            android:maxLength="20"
+            android:textSize="17sp"
+            android:singleLine="true"
+            android:id="@+id/title"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:hint="描述"
+            android:gravity="top|left"
+            android:maxLength="20"
+            android:textSize="17sp"
+            android:id="@+id/content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="价格"
+            android:maxLength="20"
+            android:textSize="17sp"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:id="@+id/price"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:id="@+id/choose_photo"
+        android:layout_width="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="7dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/photo"
+            android:src="@drawable/image_5" />
+
+        <TextView
+            android:id="@+id/pv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="添加图片"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

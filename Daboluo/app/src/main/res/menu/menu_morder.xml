@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accomplish"
+        android:title=""
+        android:icon="@drawable/ic_baseline_done_24"
+        app:showAsAction="always|collapseActionView"/>
+
+    <item
+        android:id="@+id/recipient"
+        android:title=""
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="always|collapseActionView"/>
+<!--    <item-->
+<!--        android:id="@+id/edit"-->
+<!--        android:title=""-->
+<!--        android:icon="@drawable/ic_baseline_edit_24"-->
+<!--        app:showAsAction="always|collapseActionView"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/delete"-->
+<!--        android:title=""-->
+<!--        android:icon="@drawable/ic_baseline_delete_outline_24"-->
+<!--        app:showAsAction="always|collapseActionView"/>-->
+
+</menu>

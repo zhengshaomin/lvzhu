@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_homepage"
+        android:title="首页"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/menu_order"
+        android:title="订单"
+        android:icon="@drawable/zhuyeorder"/>
+    <item
+        android:id="@+id/menu_prompt"
+        android:title="消息"
+        android:icon="@drawable/zhuyemsg"/>
+    <item
+        android:id="@+id/menu_mine"
+        android:title="我的"
+        android:icon="@drawable/zhuyeyonghu"/>
+
+</menu>

@@ -1,0 +1,120 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Project/Daboluo/app/src/main/res/layout/activity_main.xml" value="0.23278985507246377" />
+        <entry key="..\:/Android Project/Daboluo/app/src/main/res/layout/home.xml" value="0.21875" />
+        <entry key="..\:/Daboluo/app/src/main/res/drawable/diablos_background.xml" value="0.20989583333333334" />
+        <entry key="..\:/Daboluo/app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.25842696629213485" />
+        <entry key="..\:/Daboluo/app/src/main/res/drawable/ic_baseline_chevron_right_24.xml" value="0.25842696629213485" />
+        <entry key="..\:/Daboluo/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2635416666666667" />
+        <entry key="..\:/Daboluo/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.2635416666666667" />
+        <entry key="..\:/Daboluo/app/src/main/res/drawable/pg.xml" value="0.1453125" />
+        <entry key="..\:/Daboluo/app/src/main/res/drawable/yuanjiao.xml" value="0.25842696629213485" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/account.xml" value="0.23061728395061729" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/activity_drawer.xml" value="0.1" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/add.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/addtrade.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/alterpass.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/audit.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/badge.xml" value="1.0" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/c_pay.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/cs.xml" value="0.45" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/drawer_head.xml" value="0.11666666666666667" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/editdata.xml" value="0.375" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/enter.xml" value="0.165" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/feed.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/function.xml" value="0.22327898550724637" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/homepage.xml" value="0.1" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/homepage_item.xml" value="0.15670289855072464" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/html.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/individual.xml" value="0.22327898550724637" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_mpost.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_mreply.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_nc.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_news.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_order.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_post.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_reply.xml" value="0.3268698060941828" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_ship.xml" value="0.5" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/item_trade.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/likelist.xml" value="0.1094853683148335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/listview_cs.xml" value="0.1621376811594203" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/login.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/me_user.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/mgoods.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/mgoodslist.xml" value="0.11781029263370334" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/mine.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/morder.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/morderlist.xml" value="0.1094853683148335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/mpost.xml" value="0.375" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/muser.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/myposts.xml" value="0.1094853683148335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/negotiates.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/news.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/newslist.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/pay.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/pg.xml" value="0.17798913043478262" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/post.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/postlist.xml" value="0.1094853683148335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/prompt.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/ptr_frame_header.xml" value="0.18297101449275363" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/recycler_refresh.xml" value="0.18342391304347827" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/register.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/replylist.xml" value="0.1" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/retrieve.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/s.xml" value="0.1094853683148335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/safe.xml" value="0.11781029263370334" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/ship.xml" value="0.1" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/startup.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/t_pay.xml" value="0.11781029263370334" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/time.xml" value="0.20244565217391305" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/toast.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/trade.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/tradelist.xml" value="0.1094853683148335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/update.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/updateqq.xml" value="0.161231884057971" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/updateuser.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/user.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/user1.xml" value="0.20833333333333334" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/user_head.xml" value="0.25" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/userme.xml" value="0.165" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/view_message.xml" value="0.19701086956521738" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/view_reply.xml" value="0.335" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/web.xml" value="0.11781029263370334" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/yxapi.xml" value="0.125" />
+        <entry key="..\:/Daboluo/app/src/main/res/layout/yxapis.xml" value="0.22604166666666667" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/main_menu.xml" value="0.24322916666666666" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu_add.xml" value="0.24322916666666666" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu_main.xml" value="0.12314814814814815" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu_meuser.xml" value="0.24322916666666666" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu_mpost.xml" value="0.12314814814814815" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu_muser.xml" value="0.18981481481481483" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu_post.xml" value="0.12314814814814815" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/menu_user.xml" value="0.16296296296296298" />
+        <entry key="..\:/Daboluo/app/src/main/res/menu/mine_user.xml" value="0.24322916666666666" />
+        <entry key="..\:/Daboluo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13697916666666668" />
+        <entry key="..\:/Daboluo/app/src/main/res/mipmap-anydpi-v26/ic_launcher2.xml" value="0.1453125" />
+        <entry key="..\:/Daboluo/app/src/main/res/mipmap-anydpi-v26/ic_launcher2_round.xml" value="0.1453125" />
+        <entry key="..\:/Daboluo/app/src/main/res/xml/file_paths.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/add.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/addorder.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/cs.xml" value="0.11347517730496454" />
+        <entry key="app/src/main/res/layout/cs2.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/dialog_photo.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/item_order.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_post.xml" value="0.11347517730496454" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.22974358974358974" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
